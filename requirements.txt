@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-groq
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+fastapi
+uvicorn
+streamlit
+rank-bm25
+python-dotenv
+pydantic
+requests
+pytest
+httpx

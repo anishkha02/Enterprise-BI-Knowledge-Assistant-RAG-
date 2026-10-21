@@ -1,0 +1,368 @@
+[
+  {
+    "question": "How is customer churn rate calculated?",
+    "expected_sources": [
+      "customer_churn_rate.md"
+    ],
+    "reference": "Customer Churn Rate = (Customers Lost in Period / Customers at Start of Period) × 100"
+  },
+  {
+    "question": "What does the Gross Margin KPI measure?",
+    "expected_sources": [
+      "gross_margin.md"
+    ],
+    "reference": "Gross Margin: Gross profit as a percentage of revenue, before operating expenses are deducted."
+  },
+  {
+    "question": "What is the formula for Net Margin?",
+    "expected_sources": [
+      "net_margin.md"
+    ],
+    "reference": "Net Margin = Net Profit / Revenue × 100"
+  },
+  {
+    "question": "What is Average Order Value?",
+    "expected_sources": [
+      "average_order_value.md"
+    ],
+    "reference": "Average Order Value: Average revenue generated per order."
+  },
+  {
+    "question": "How is Days Sales Outstanding calculated?",
+    "expected_sources": [
+      "days_sales_outstanding.md"
+    ],
+    "reference": "Days Sales Outstanding = Accounts Receivable / Revenue × Days in Period"
+  },
+  {
+    "question": "What does Overall Equipment Effectiveness mean?",
+    "expected_sources": [
+      "overall_equipment_effectiveness.md"
+    ],
+    "reference": "Overall Equipment Effectiveness: Combined measure of availability, performance and quality of equipment."
+  },
+  {
+    "question": "How do we calculate Employee Turnover Rate?",
+    "expected_sources": [
+      "employee_turnover_rate.md"
+    ],
+    "reference": "Employee Turnover Rate = Employees Who Left / Average Headcount × 100"
+  },
+  {
+    "question": "What is the definition of Perfect Order Rate?",
+    "expected_sources": [
+      "perfect_order_rate.md"
+    ],
+    "reference": "Perfect Order Rate: Percentage of orders delivered on time, complete, undamaged and with correct documents."
+  },
+  {
+    "question": "How is Customer Lifetime Value computed?",
+    "expected_sources": [
+      "customer_lifetime_value.md"
+    ],
+    "reference": "Customer Lifetime Value = Average Order Value × Purchase Frequency × Customer Lifespan"
+  },
+  {
+    "question": "What is First Contact Resolution Rate?",
+    "expected_sources": [
+      "first_contact_resolution_rate.md"
+    ],
+    "reference": "First Contact Resolution Rate: Percentage of tickets solved in the first interaction."
+  },
+  {
+    "question": "How is Free Cash Flow calculated?",
+    "expected_sources": [
+      "free_cash_flow.md"
+    ],
+    "reference": "Free Cash Flow = Operating Cash Flow - Capital Expenditure"
+  },
+  {
+    "question": "What does Cash Conversion Cycle measure?",
+    "expected_sources": [
+      "cash_conversion_cycle.md"
+    ],
+    "reference": "Cash Conversion Cycle: Days needed to convert inventory investment into cash."
+  },
+  {
+    "question": "What is the difference between Gross Margin and Net Margin?",
+    "expected_sources": [
+      "gross_margin.md",
+      "net_margin.md"
+    ],
+    "reference": "Gross Margin: Gross profit as a percentage of revenue, before operating expenses are deducted. | Net Margin: Net profit as a percentage of revenue, after all expenses, interest and taxes."
+  },
+  {
+    "question": "How do Repeat Purchase Rate and Repeat Customer Rate differ?",
+    "expected_sources": [
+      "repeat_purchase_rate.md",
+      "repeat_customer_rate.md"
+    ],
+    "reference": "Repeat Purchase Rate: Percentage of orders placed by customers who had bought before. | Repeat Customer Rate: Percentage of all customers who have ordered more than once."
+  },
+  {
+    "question": "What is the difference between voluntary and involuntary attrition?",
+    "expected_sources": [
+      "voluntary_attrition_rate.md",
+      "involuntary_attrition_rate.md"
+    ],
+    "reference": "Voluntary Attrition Rate: Percentage of employees who resigned by their own choice. | Involuntary Attrition Rate: Percentage of employees dismissed or laid off."
+  },
+  {
+    "question": "How does Employee Turnover Rate differ from Retention Rate?",
+    "expected_sources": [
+      "employee_turnover_rate.md",
+      "retention_rate.md"
+    ],
+    "reference": "Employee Turnover Rate: Percentage of employees who left during the period. | Retention Rate: Percentage of employees who stay through the period."
+  },
+  {
+    "question": "Which tables are used to calculate Cost per Lead?",
+    "expected_sources": [
+      "cost_per_lead.md"
+    ],
+    "reference": "Cost per Lead uses the tables: fact_marketing"
+  },
+  {
+    "question": "What source tables feed the Ticket Backlog KPI?",
+    "expected_sources": [
+      "ticket_backlog.md"
+    ],
+    "reference": "Ticket Backlog uses the tables: fact_tickets"
+  },
+  {
+    "question": "Which tables does Customer Acquisition Cost use?",
+    "expected_sources": [
+      "customer_acquisition_cost.md"
+    ],
+    "reference": "Customer Acquisition Cost uses the tables: fact_marketing, dim_customer"
+  },
+  {
+    "question": "What tables are needed for Overtime Rate?",
+    "expected_sources": [
+      "overtime_rate.md"
+    ],
+    "reference": "Overtime Rate uses the tables: fact_payroll"
+  },
+  {
+    "question": "Which tables feed Warehouse Utilization?",
+    "expected_sources": [
+      "warehouse_utilization.md"
+    ],
+    "reference": "Warehouse Utilization uses the tables: fact_inventory"
+  },
+  {
+    "question": "What source tables does Cost per Hire use?",
+    "expected_sources": [
+      "cost_per_hire.md"
+    ],
+    "reference": "Cost per Hire uses the tables: fact_recruitment"
+  },
+  {
+    "question": "Which reports show Customer Churn Rate?",
+    "expected_sources": [
+      "customer_churn_rate.md",
+      "powerbi_customer_health_dashboard.md",
+      "ssrs_monthly_retention_report.md"
+    ],
+    "reference": "Customer Churn Rate is used in Customer Health Dashboard (Power BI) and Monthly Retention Report (SSRS)"
+  },
+  {
+    "question": "Where can I see Gross Profit in Power BI or SSRS?",
+    "expected_sources": [
+      "gross_profit.md",
+      "powerbi_financial_overview_dashboard.md",
+      "ssrs_monthly_profit_and_loss.md"
+    ],
+    "reference": "Gross Profit is used in Financial Overview Dashboard (Power BI) and Monthly Profit and Loss (SSRS)"
+  },
+  {
+    "question": "Which dashboards include Inventory Turnover?",
+    "expected_sources": [
+      "inventory_turnover.md",
+      "powerbi_supply_chain_dashboard.md",
+      "ssrs_inventory_status_report.md"
+    ],
+    "reference": "Inventory Turnover is used in Supply Chain Dashboard (Power BI) and Inventory Status Report (SSRS)"
+  },
+  {
+    "question": "Which reports use the Headcount KPI?",
+    "expected_sources": [
+      "headcount.md",
+      "powerbi_workforce_analytics_dashboard.md",
+      "ssrs_headcount_and_attrition_report.md"
+    ],
+    "reference": "Headcount is used in Workforce Analytics Dashboard (Power BI) and Headcount and Attrition Report (SSRS)"
+  },
+  {
+    "question": "In which reports does Total Revenue appear?",
+    "expected_sources": [
+      "total_revenue.md",
+      "powerbi_sales_performance_dashboard.md",
+      "ssrs_daily_sales_summary.md"
+    ],
+    "reference": "Total Revenue is used in Sales Performance Dashboard (Power BI) and Daily Sales Summary (SSRS)"
+  },
+  {
+    "question": "Which reports contain Win Rate?",
+    "expected_sources": [
+      "win_rate.md",
+      "powerbi_sales_performance_dashboard.md",
+      "ssrs_daily_sales_summary.md"
+    ],
+    "reference": "Win Rate is used in Sales Performance Dashboard (Power BI) and Daily Sales Summary (SSRS)"
+  },
+  {
+    "question": "What parameters does the Daily Sales Summary report take?",
+    "expected_sources": [
+      "ssrs_daily_sales_summary.md"
+    ],
+    "reference": "Daily Sales Summary parameters: Start Date, End Date, Region"
+  },
+  {
+    "question": "When is the Monthly Profit and Loss report refreshed?",
+    "expected_sources": [
+      "ssrs_monthly_profit_and_loss.md"
+    ],
+    "reference": "Monthly Profit and Loss runs: Monthly on the 3rd business day"
+  },
+  {
+    "question": "What pages are in the Workforce Analytics Dashboard?",
+    "expected_sources": [
+      "powerbi_workforce_analytics_dashboard.md"
+    ],
+    "reference": "Workforce Analytics Dashboard pages: Headcount, Attrition, Diversity"
+  },
+  {
+    "question": "Show the DAX measure for Win Rate in the Sales Pipeline Dashboard.",
+    "expected_sources": [
+      "powerbi_sales_pipeline_dashboard.md"
+    ],
+    "reference": "Sales Pipeline Dashboard measure: Win Rate = DIVIDE([Deals Won], [Deals Closed])"
+  },
+  {
+    "question": "What parameters does the Inventory Status Report have?",
+    "expected_sources": [
+      "ssrs_inventory_status_report.md"
+    ],
+    "reference": "Inventory Status Report parameters: Warehouse, As-Of Date"
+  },
+  {
+    "question": "What is the refresh schedule of the Support Ticket Summary report?",
+    "expected_sources": [
+      "ssrs_support_ticket_summary.md"
+    ],
+    "reference": "Support Ticket Summary runs: Daily at 7:00 AM"
+  },
+  {
+    "question": "Which pages does the Customer Health Dashboard have?",
+    "expected_sources": [
+      "powerbi_customer_health_dashboard.md"
+    ],
+    "reference": "Customer Health Dashboard pages: Churn, Retention, Segments, NPS"
+  },
+  {
+    "question": "What columns does the fact_tickets table contain?",
+    "expected_sources": [
+      "table_fact_tickets.md"
+    ],
+    "reference": "fact_tickets: Customer support tickets. Columns: ticket_id - Unique ticket key; customer_id - Link to dim_customer; created_time - When the ticket was opened; resolved_time - When the ticket was resolved; priority - Low, Medium or High; status - Open or Closed"
+  },
+  {
+    "question": "What does the dim_account table store?",
+    "expected_sources": [
+      "table_dim_account.md"
+    ],
+    "reference": "dim_account: Chart of accounts for the general ledger. Columns: account_id - Unique account key; account_name - Account name; account_type - Asset, Liability, Revenue or Expense; parent_account_id - Parent account for roll-ups"
+  },
+  {
+    "question": "Which column in fact_shipments records the shipping cost?",
+    "expected_sources": [
+      "table_fact_shipments.md"
+    ],
+    "reference": "fact_shipments: One row per shipment. Columns: shipment_id - Unique shipment key; order_id - Link to fact_orders; carrier - Shipping carrier; ship_date - Dispatch date; delivery_date - Delivery date; shipping_cost - Cost of shipping"
+  },
+  {
+    "question": "What percentage of our clients stop buying from us?",
+    "expected_sources": [
+      "customer_churn_rate.md"
+    ],
+    "reference": "Customer Churn Rate: Percentage of customers who stopped purchasing during a period. Customers inactive for 90+ days are considered churned."
+  },
+  {
+    "question": "How much profit do we keep after paying every expense and tax?",
+    "expected_sources": [
+      "net_margin.md"
+    ],
+    "reference": "Net Margin: Net profit as a percentage of revenue, after all expenses, interest and taxes."
+  },
+  {
+    "question": "How quickly does support first answer a customer?",
+    "expected_sources": [
+      "first_response_time.md"
+    ],
+    "reference": "First Response Time: Average time to the first reply on a support ticket."
+  },
+  {
+    "question": "How many days on average do customers take to pay us?",
+    "expected_sources": [
+      "days_sales_outstanding.md"
+    ],
+    "reference": "Days Sales Outstanding: Average days taken to collect payment after a sale."
+  },
+  {
+    "question": "What measures the share of staff who quit on their own?",
+    "expected_sources": [
+      "voluntary_attrition_rate.md"
+    ],
+    "reference": "Voluntary Attrition Rate: Percentage of employees who resigned by their own choice."
+  },
+  {
+    "question": "How often are shelves empty when customers want a product?",
+    "expected_sources": [
+      "stockout_rate.md"
+    ],
+    "reference": "Stockout Rate: Percentage of demand lost because items were out of stock."
+  },
+  {
+    "question": "What tells me how well deals in the pipeline turn into wins?",
+    "expected_sources": [
+      "win_rate.md"
+    ],
+    "reference": "Win Rate: Percentage of sales opportunities that were won."
+  },
+  {
+    "question": "Which metric shows how much cash the company loses each month?",
+    "expected_sources": [
+      "burn_rate.md"
+    ],
+    "reference": "Burn Rate: Net cash spent per month."
+  },
+  {
+    "question": "What measures how many parcels reach customers late?",
+    "expected_sources": [
+      "on_time_delivery_rate.md"
+    ],
+    "reference": "On-Time Delivery Rate: Percentage of shipments delivered by the promised date."
+  },
+  {
+    "question": "What shows how fast a new recruit starts performing at full speed?",
+    "expected_sources": [
+      "time_to_productivity.md"
+    ],
+    "reference": "Time to Productivity: Average days for a new hire to reach full productivity."
+  },
+  {
+    "question": "How much does it cost us to attract a brand new buyer?",
+    "expected_sources": [
+      "customer_acquisition_cost.md"
+    ],
+    "reference": "Customer Acquisition Cost: Average marketing and sales cost to win one new customer."
+  },
+  {
+    "question": "What indicates the share of products that buyers send back?",
+    "expected_sources": [
+      "return_rate.md"
+    ],
+    "reference": "Return Rate: Percentage of sold units returned by customers."
+  }
+]

@@ -1,0 +1,7 @@
+venv/
+.env
+__pycache__/
+*.pyc
+vectorstore_exp/
+.pytest_cache/
+evaluation/llm_cache.json
