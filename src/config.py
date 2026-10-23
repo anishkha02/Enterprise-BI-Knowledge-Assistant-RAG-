@@ -9,7 +9,7 @@ RAW_DATA_DIR = "data/raw"
 INDEX_DIR = "vectorstore"
 
 # Defaults used by the API. Update these after tuning.
-CHUNK_SIZE = 800
+CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
-TOP_K = 4
-PROMPT_VERSION = "v2"
+TOP_K = 5
+PROMPT_VERSION = "v1"

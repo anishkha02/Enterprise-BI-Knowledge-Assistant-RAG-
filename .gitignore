@@ -5,3 +5,4 @@ __pycache__/
 vectorstore_exp/
 .pytest_cache/
 evaluation/llm_cache.json
+my_results.txt
