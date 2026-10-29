@@ -1,5 +1,9 @@
 venv/
 .env
 __pycache__/
+*.pyc
 .git/
 vectorstore_exp/
+evaluation/llm_cache.json
+.pytest_cache/
+my_results.txt

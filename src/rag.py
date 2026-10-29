@@ -3,6 +3,8 @@ from langchain_community.vectorstores import FAISS
 from src import config
 from src.llm import get_embeddings, make_llm, text_of
 
+NOT_FOUND_TEXT = "couldn't find this in the bi documentation"
+
 PROMPTS = {
     # v1 = plain prompt
     "v1": """Answer the question using the context.
@@ -54,5 +56,8 @@ class BIAssistant:
         start = time.time()
         docs = self.retrieve(question)
         answer = generate_answer(self.llm, question, docs, self.prompt_version)
-        sources = sorted({d.metadata["source"] for d in docs})
+        if NOT_FOUND_TEXT in answer.lower().replace("’", "'"):
+            sources = []
+        else:
+            sources = sorted({d.metadata["source"] for d in docs})
         return {"answer": answer, "sources": sources, "latency_s": round(time.time() - start, 2)}
